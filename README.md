@@ -4,6 +4,21 @@ A remake of the strategy game **Dune II: The Building of a Dynasty** (Westwood, 
 It is based on the open-source [Dune Legacy](https://dunelegacy.sourceforge.net/) engine: the mechanics, numbers
 and rules were ported from its source code, and the graphics were rebuilt in modern 3D.
 
+<!-- coders-talk:repo -->
+## Built with AI
+
+[![Build Dune II remake in three.js with voice/audio generation](https://coders.talk/embed/b/build-dune-ii-remake-in-threejs-with-voiceaudio-generation.svg)](https://coders.talk/b/build-dune-ii-remake-in-threejs-with-voiceaudio-generation?utm_source=github&utm_medium=readme&utm_campaign=build)
+
+**Build Dune II remake in three.js with voice/audio generation**  
+Claude Code · Opus 5.5  
+1h 51m · zero-touch · 4 agent fails
+
+[View the full build →](https://coders.talk/b/build-dune-ii-remake-in-threejs-with-voiceaudio-generation?utm_source=github&utm_medium=readme&utm_campaign=build)
+<!-- /coders-talk:repo -->
+
+Demo: https://crocone.github.io/dune-arrakis/
+<img width="3827" height="1962" alt="image" src="https://github.com/user-attachments/assets/7b503d06-5dd8-4496-9314-ad700f36d10a" />
+
 ## Running
 
 ```bash
