@@ -19,7 +19,8 @@ Third-party libraries: [three.js](https://threejs.org/) (MIT), [Vite](https://vi
 - Voice-over (mentats, narrator, base announcers, unit crews) and sound effects were generated with
   [ElevenLabs](https://elevenlabs.io/) text-to-speech and sound generation, using ElevenLabs premade voices
   (see `src/data/voice.js`). Without these files the game falls back to WebAudio synthesis and browser speech.
-- Music: tracks placed in `public/music` (see [docs/MUSIC_SUNO.md](docs/MUSIC_SUNO.md)); otherwise a generative score is synthesized in real time.
+- Music: the tracks in `public/music` were generated with [Suno](https://suno.com/) (prompts in
+  [docs/MUSIC_SUNO.md](docs/MUSIC_SUNO.md)); without them a generative score is synthesized in real time.
 - Mentat briefings, finales and interface texts were written from scratch; no original Westwood texts are used.
 - Fonts: Cinzel and Inter (Google Fonts, SIL Open Font License).
 
