@@ -1,0 +1,402 @@
+[
+ {
+  "file": "2P - 32x128 - Canyon.ini",
+  "players": 2,
+  "w": 32,
+  "h": 128,
+  "name": "Canyon",
+  "author": "R. Schaller"
+ },
+ {
+  "file": "2P - 32x128 - Gatekeeper.ini",
+  "players": 2,
+  "w": 32,
+  "h": 128,
+  "name": "Gatekeeper",
+  "author": "kc"
+ },
+ {
+  "file": "2P - 32x32 - X-Factor.ini",
+  "players": 2,
+  "w": 32,
+  "h": 32,
+  "name": "X-Factor",
+  "author": "R. Schaller"
+ },
+ {
+  "file": "2P - 64x32 - Cliffs Of Rene.ini",
+  "players": 2,
+  "w": 64,
+  "h": 32,
+  "name": "Cliffs Of Rene",
+  "author": "Rippsblack"
+ },
+ {
+  "file": "2P - 64x64 - Bottle Neck.ini",
+  "players": 2,
+  "w": 64,
+  "h": 64,
+  "name": "Bottle Neck",
+  "author": "Rippsblack"
+ },
+ {
+  "file": "2P - 64x64 - Broken Mountains.ini",
+  "players": 2,
+  "w": 64,
+  "h": 64,
+  "name": "Broken Mountains",
+  "author": "Rippsblack"
+ },
+ {
+  "file": "2P - 64x64 - David's Pass.ini",
+  "players": 2,
+  "w": 64,
+  "h": 64,
+  "name": "David's Pass",
+  "author": "Rippsblack"
+ },
+ {
+  "file": "2P - 64x64 - Duality.ini",
+  "players": 2,
+  "w": 64,
+  "h": 64,
+  "name": "Duality",
+  "author": "Rippsblack"
+ },
+ {
+  "file": "2P - 64x64 - Face Off.ini",
+  "players": 2,
+  "w": 64,
+  "h": 64,
+  "name": "Face Off",
+  "author": "Rippsblack"
+ },
+ {
+  "file": "2P - 64x64 - Great Divide.ini",
+  "players": 2,
+  "w": 64,
+  "h": 64,
+  "name": "Great Divide",
+  "author": "Rippsblack"
+ },
+ {
+  "file": "2P - 64x64 - North vs. South.ini",
+  "players": 2,
+  "w": 64,
+  "h": 64,
+  "name": "North vs. South",
+  "author": "R. Schaller"
+ },
+ {
+  "file": "2P - 64x64 - Sanctuarys.ini",
+  "players": 2,
+  "w": 64,
+  "h": 64,
+  "name": "Sanctuarys",
+  "author": "Rippsblack"
+ },
+ {
+  "file": "2P - 64x64 - Twin Fists.ini",
+  "players": 2,
+  "w": 64,
+  "h": 64,
+  "name": "Twin Fists",
+  "author": "Rippsblack"
+ },
+ {
+  "file": "3P - 64x32 - Middle Man.ini",
+  "players": 3,
+  "w": 64,
+  "h": 32,
+  "name": "Middle Man",
+  "author": "Rippsblack"
+ },
+ {
+  "file": "4P - 128x128 - Deserted.ini",
+  "players": 4,
+  "w": 128,
+  "h": 128,
+  "name": "Deserted",
+  "author": "kc"
+ },
+ {
+  "file": "4P - 128x128 - Equilibrium.ini",
+  "players": 4,
+  "w": 128,
+  "h": 128,
+  "name": "Equilibrium",
+  "author": "Stefan van der Wel"
+ },
+ {
+  "file": "4P - 128x128 - Four Cities.ini",
+  "players": 4,
+  "w": 128,
+  "h": 128,
+  "name": "Four Cities",
+  "author": "Stefan van der Wel"
+ },
+ {
+  "file": "4P - 128x128 - Hungry Hippos.ini",
+  "players": 4,
+  "w": 128,
+  "h": 128,
+  "name": "Hungry Hippos",
+  "author": "Stefan van der Wel"
+ },
+ {
+  "file": "4P - 128x128 - Moshpit with Garbages.ini",
+  "players": 4,
+  "w": 128,
+  "h": 128,
+  "name": "Moshpit with Garbages",
+  "author": "SardukarKoon"
+ },
+ {
+  "file": "4P - 128x128 - Silicon Valley XL.ini",
+  "players": 4,
+  "w": 128,
+  "h": 128,
+  "name": "Silicon Valley XL",
+  "author": "kc"
+ },
+ {
+  "file": "4P - 128x128 - Snake Pass.ini",
+  "players": 4,
+  "w": 128,
+  "h": 128,
+  "name": "Snake Pass",
+  "author": "Stefan van der Wel"
+ },
+ {
+  "file": "4P - 128x128 - Spicestorm.ini",
+  "players": 4,
+  "w": 128,
+  "h": 128,
+  "name": "Spicestorm",
+  "author": "kc"
+ },
+ {
+  "file": "4P - 128x128 - The Sardaukar Outpost.ini",
+  "players": 4,
+  "w": 128,
+  "h": 128,
+  "name": "The Sardaukar Outpost",
+  "author": "R. Schaller"
+ },
+ {
+  "file": "4P - 128x128 - Worm Investation.ini",
+  "players": 4,
+  "w": 128,
+  "h": 128,
+  "name": "Worm Investation",
+  "author": "Stefan van der Wel"
+ },
+ {
+  "file": "4P - 128x128 - Wormhole.ini",
+  "players": 4,
+  "w": 128,
+  "h": 128,
+  "name": "Wormhole",
+  "author": "kc"
+ },
+ {
+  "file": "4P - 128x64 - Gamma Sector.ini",
+  "players": 4,
+  "w": 128,
+  "h": 64,
+  "name": "Gamma Sector",
+  "author": "kc"
+ },
+ {
+  "file": "4P - 64x64 - 3 vs 1.ini",
+  "players": 4,
+  "w": 64,
+  "h": 64,
+  "name": "3 vs 1",
+  "author": "kc"
+ },
+ {
+  "file": "4P - 64x64 - Channels.ini",
+  "players": 4,
+  "w": 64,
+  "h": 64,
+  "name": "Channels",
+  "author": "kc"
+ },
+ {
+  "file": "4P - 64x64 - Clear Path.ini",
+  "players": 4,
+  "w": 64,
+  "h": 64,
+  "name": "Clear Path",
+  "author": "Rippsblack"
+ },
+ {
+  "file": "4P - 64x64 - Combed.ini",
+  "players": 4,
+  "w": 64,
+  "h": 64,
+  "name": "Combed",
+  "author": "kc"
+ },
+ {
+  "file": "4P - 64x64 - Four Chambers.ini",
+  "players": 4,
+  "w": 64,
+  "h": 64,
+  "name": "Four Chambers",
+  "author": "Richard Schaller"
+ },
+ {
+  "file": "4P - 64x64 - Four Courners.ini",
+  "players": 4,
+  "w": 64,
+  "h": 64,
+  "name": "Four Courners",
+  "author": "Rippsblack"
+ },
+ {
+  "file": "4P - 64x64 - Sietch Stefan.ini",
+  "players": 4,
+  "w": 64,
+  "h": 64,
+  "name": "Sietch Stefan",
+  "author": "Rippsblack"
+ },
+ {
+  "file": "4P - 64x64 - Silicon Valley.ini",
+  "players": 4,
+  "w": 64,
+  "h": 64,
+  "name": "Silicon Valley",
+  "author": "kc"
+ },
+ {
+  "file": "4P - 64x64 - Stronghold.ini",
+  "players": 4,
+  "w": 64,
+  "h": 64,
+  "name": "Stronghold",
+  "author": "kc"
+ },
+ {
+  "file": "4P - 64x64 - Vast Armies Have Arrived.ini",
+  "players": 4,
+  "w": 64,
+  "h": 64,
+  "name": "Vast Armies Have Arrived",
+  "author": "R. Schaller"
+ },
+ {
+  "file": "5P - 128x128 - All against Atreides.ini",
+  "players": 5,
+  "w": 128,
+  "h": 128,
+  "name": "All against Atreides",
+  "author": "Richard Schaller"
+ },
+ {
+  "file": "5P - 128x128 - Fortress.ini",
+  "players": 5,
+  "w": 128,
+  "h": 128,
+  "name": "Fortress",
+  "author": "kc"
+ },
+ {
+  "file": "5P - 128x128 - Gridlocked.ini",
+  "players": 5,
+  "w": 128,
+  "h": 128,
+  "name": "Gridlocked",
+  "author": "kc"
+ },
+ {
+  "file": "5P - 128x128 - Hellvetika.ini",
+  "players": 5,
+  "w": 128,
+  "h": 128,
+  "name": "Hellvetika",
+  "author": "Kuffar"
+ },
+ {
+  "file": "5P - 128x128 - Kragetam.ini",
+  "players": 5,
+  "w": 128,
+  "h": 128,
+  "name": "Kragetam",
+  "author": "Kuffar"
+ },
+ {
+  "file": "5P - 128x128 - Meadow.ini",
+  "players": 5,
+  "w": 128,
+  "h": 128,
+  "name": "Meadow",
+  "author": "kc"
+ },
+ {
+  "file": "5P - 128x128 - Sardaukar Base Easy.ini",
+  "players": 5,
+  "w": 128,
+  "h": 128,
+  "name": "Sardaukar Base Easy",
+  "author": "kc"
+ },
+ {
+  "file": "5P - 128x128 - Sardaukar Base.ini",
+  "players": 5,
+  "w": 128,
+  "h": 128,
+  "name": "Sardaukar Base",
+  "author": "kc"
+ },
+ {
+  "file": "5P - 128x64 - Watch Your Track.ini",
+  "players": 5,
+  "w": 128,
+  "h": 64,
+  "name": "Watch Your Track",
+  "author": "kc"
+ },
+ {
+  "file": "6P - 128x128 - Alkozeltser 2.ini",
+  "players": 6,
+  "w": 128,
+  "h": 128,
+  "name": "Alkozeltser 2",
+  "author": "JonhSoft(TM)"
+ },
+ {
+  "file": "6P - 128x128 - Full Wormage.ini",
+  "players": 6,
+  "w": 128,
+  "h": 128,
+  "name": "Full Wormage",
+  "author": "JonhSoftâ¢ 2024 (C)"
+ },
+ {
+  "file": "6P - 128x128 - Gargantuan Mountains.ini",
+  "players": 6,
+  "w": 128,
+  "h": 128,
+  "name": "Gargantuan Mountains",
+  "author": "Kuffar"
+ },
+ {
+  "file": "6P - 64x128 - Rocking Fields.ini",
+  "players": 6,
+  "w": 64,
+  "h": 128,
+  "name": "Rocking Fields",
+  "author": "kc"
+ },
+ {
+  "file": "6P - 64x64 - Fertile Basin.ini",
+  "players": 6,
+  "w": 64,
+  "h": 64,
+  "name": "Fertile Basin",
+  "author": "Kuffar"
+ }
+]

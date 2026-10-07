@@ -1,0 +1,23 @@
+{
+  "name": "dune-arrakis",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "voice": "node tools/voice-gen.mjs",
+    "sfx": "node tools/sfx-gen.mjs",
+    "music": "node tools/music-levels.mjs"
+  },
+  "license": "GPL-2.0-or-later",
+  "description": "Dune II / Dune Legacy remake on three.js",
+  "dependencies": {
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "undici": "^7.30.0",
+    "vite": "^8.3.3"
+  },
+  "private": true,
+  "type": "module"
+}

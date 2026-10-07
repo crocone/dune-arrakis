@@ -1,0 +1,37 @@
+{
+  "ambient1.mp3": {
+    "sig": "c6e8ba2e64e39830",
+    "lufs": -9.3,
+    "gain": -4.7,
+    "duration": 36.29,
+    "end": 34.64
+  },
+  "battle1.mp3": {
+    "sig": "181a04f51f970c30",
+    "lufs": -12.9,
+    "gain": -1.1,
+    "duration": 188.73,
+    "end": 187.97
+  },
+  "defeat.mp3": {
+    "sig": "8e2e7d1d1225f54e",
+    "lufs": -14.4,
+    "gain": 0.4,
+    "duration": 229.97,
+    "end": null
+  },
+  "menu.mp3": {
+    "sig": "36dc3d6a3dd0e1e4",
+    "lufs": -13.4,
+    "gain": -0.6,
+    "duration": 217.65,
+    "end": 216.8
+  },
+  "victory.mp3": {
+    "sig": "152f3cb413ac7802",
+    "lufs": -14.1,
+    "gain": 0.1,
+    "duration": 158.45,
+    "end": null
+  }
+}

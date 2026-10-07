@@ -1,0 +1,7 @@
+* text=auto
+*.mp3 binary
+*.png binary
+*.jpg binary
+# map and scenario files are kept byte-for-byte as shipped with Dune Legacy
+*.ini -text
+*.INI -text

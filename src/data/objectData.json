@@ -1,0 +1,994 @@
+{
+ "mapSettings": {
+  "harvesterLimitSmallMap": 5,
+  "harvesterLimitMediumMap": 10,
+  "harvesterLimitLargeMap": 15,
+  "harvesterLimitHugeMap": 40,
+  "unitLimitSmallMap": 25,
+  "unitLimitMediumMap": 100,
+  "unitLimitLargeMap": 250,
+  "unitLimitHugeMap": 300
+ },
+ "structures": {
+  "barracks": {
+   "name": "Barracks",
+   "base": {
+    "enabled": true,
+    "hitPoints": 300,
+    "price": 300,
+    "power": 10,
+    "viewRange": 2,
+    "capacity": 0,
+    "weaponDamage": 0,
+    "weaponRange": 0,
+    "weaponReloadTime": 0,
+    "maxSpeed": 0,
+    "turnSpeed": 0,
+    "buildTime": 72,
+    "infSpawnProp": 50,
+    "builder": "constructionYard",
+    "techLevel": 2,
+    "upgradeLevel": 0,
+    "prerequisite": [
+     "windtrap",
+     "radar"
+    ]
+   },
+   "house": {
+    "0": {
+     "builder": null
+    }
+   }
+  },
+  "constructionYard": {
+   "name": "Construction Yard",
+   "base": {
+    "enabled": true,
+    "hitPoints": 400,
+    "price": 400,
+    "power": 0,
+    "viewRange": 3,
+    "capacity": 0,
+    "weaponDamage": 0,
+    "weaponRange": 0,
+    "weaponReloadTime": 0,
+    "maxSpeed": 0,
+    "turnSpeed": 0,
+    "buildTime": 80,
+    "infSpawnProp": 25,
+    "builder": null,
+    "techLevel": -1,
+    "upgradeLevel": 0,
+    "prerequisite": []
+   },
+   "house": {}
+  },
+  "gunTurret": {
+   "name": "Gun-Turret",
+   "base": {
+    "enabled": true,
+    "hitPoints": 200,
+    "price": 125,
+    "power": 10,
+    "viewRange": 2,
+    "capacity": 0,
+    "weaponDamage": 20,
+    "weaponRange": 5,
+    "weaponReloadTime": 240,
+    "maxSpeed": 0,
+    "turnSpeed": 0.01,
+    "buildTime": 64,
+    "infSpawnProp": 25,
+    "builder": "constructionYard",
+    "techLevel": 5,
+    "upgradeLevel": 0,
+    "prerequisite": [
+     "windtrap",
+     "radar"
+    ]
+   },
+   "house": {}
+  },
+  "heavyFactory": {
+   "name": "Heavy Factory",
+   "base": {
+    "enabled": true,
+    "hitPoints": 200,
+    "price": 600,
+    "power": 35,
+    "viewRange": 3,
+    "capacity": 0,
+    "weaponDamage": 0,
+    "weaponRange": 0,
+    "weaponReloadTime": 0,
+    "maxSpeed": 0,
+    "turnSpeed": 0,
+    "buildTime": 144,
+    "infSpawnProp": 25,
+    "builder": "constructionYard",
+    "techLevel": 4,
+    "upgradeLevel": 0,
+    "prerequisite": [
+     "windtrap",
+     "radar",
+     "lightFactory"
+    ]
+   },
+   "house": {}
+  },
+  "highTechFactory": {
+   "name": "Hightech Factory",
+   "base": {
+    "enabled": true,
+    "hitPoints": 400,
+    "price": 500,
+    "power": 35,
+    "viewRange": 3,
+    "capacity": 0,
+    "weaponDamage": 0,
+    "weaponRange": 0,
+    "weaponReloadTime": 0,
+    "maxSpeed": 0,
+    "turnSpeed": 0,
+    "buildTime": 120,
+    "infSpawnProp": 25,
+    "builder": "constructionYard",
+    "techLevel": 5,
+    "upgradeLevel": 0,
+    "prerequisite": [
+     "windtrap",
+     "radar",
+     "lightFactory"
+    ]
+   },
+   "house": {}
+  },
+  "ix": {
+   "name": "House IX",
+   "base": {
+    "enabled": true,
+    "hitPoints": 400,
+    "price": 500,
+    "power": 40,
+    "viewRange": 3,
+    "capacity": 0,
+    "weaponDamage": 0,
+    "weaponRange": 0,
+    "weaponReloadTime": 0,
+    "maxSpeed": 0,
+    "turnSpeed": 0,
+    "buildTime": 120,
+    "infSpawnProp": 75,
+    "builder": "constructionYard",
+    "techLevel": 7,
+    "upgradeLevel": 0,
+    "prerequisite": [
+     "windtrap",
+     "refinery",
+     "starport"
+    ]
+   },
+   "house": {}
+  },
+  "lightFactory": {
+   "name": "Light Factory",
+   "base": {
+    "enabled": true,
+    "hitPoints": 350,
+    "price": 400,
+    "power": 20,
+    "viewRange": 3,
+    "capacity": 0,
+    "weaponDamage": 0,
+    "weaponRange": 0,
+    "weaponReloadTime": 0,
+    "maxSpeed": 0,
+    "turnSpeed": 0,
+    "buildTime": 96,
+    "infSpawnProp": 25,
+    "builder": "constructionYard",
+    "techLevel": 2,
+    "upgradeLevel": 0,
+    "prerequisite": [
+     "windtrap",
+     "refinery"
+    ]
+   },
+   "house": {
+    "0": {
+     "techLevel": 3
+    },
+    "4": {
+     "techLevel": 3
+    }
+   }
+  },
+  "palace": {
+   "name": "Palace",
+   "base": {
+    "enabled": true,
+    "hitPoints": 1000,
+    "price": 999,
+    "power": 80,
+    "viewRange": 5,
+    "capacity": 0,
+    "weaponDamage": 0,
+    "weaponRange": 0,
+    "weaponReloadTime": 0,
+    "maxSpeed": 0,
+    "turnSpeed": 0,
+    "buildTime": 130,
+    "infSpawnProp": 50,
+    "builder": "constructionYard",
+    "techLevel": 8,
+    "upgradeLevel": 0,
+    "prerequisite": [
+     "starport"
+    ]
+   },
+   "house": {}
+  },
+  "radar": {
+   "name": "Radar",
+   "base": {
+    "enabled": true,
+    "hitPoints": 500,
+    "price": 400,
+    "power": 30,
+    "viewRange": 10,
+    "capacity": 0,
+    "weaponDamage": 0,
+    "weaponRange": 0,
+    "weaponReloadTime": 0,
+    "maxSpeed": 0,
+    "turnSpeed": 0,
+    "buildTime": 80,
+    "infSpawnProp": 50,
+    "builder": "constructionYard",
+    "techLevel": 2,
+    "upgradeLevel": 0,
+    "prerequisite": [
+     "windtrap"
+    ]
+   },
+   "house": {}
+  },
+  "refinery": {
+   "name": "Refinery",
+   "base": {
+    "enabled": true,
+    "hitPoints": 450,
+    "price": 400,
+    "power": 30,
+    "viewRange": 4,
+    "capacity": 1005,
+    "weaponDamage": 0,
+    "weaponRange": 0,
+    "weaponReloadTime": 0,
+    "maxSpeed": 0,
+    "turnSpeed": 0,
+    "buildTime": 80,
+    "infSpawnProp": 50,
+    "builder": "constructionYard",
+    "techLevel": 1,
+    "upgradeLevel": 0,
+    "prerequisite": [
+     "windtrap"
+    ]
+   },
+   "house": {}
+  },
+  "repairYard": {
+   "name": "Repair Yard",
+   "base": {
+    "enabled": true,
+    "hitPoints": 200,
+    "price": 700,
+    "power": 20,
+    "viewRange": 3,
+    "capacity": 0,
+    "weaponDamage": 0,
+    "weaponRange": 0,
+    "weaponReloadTime": 0,
+    "maxSpeed": 0,
+    "turnSpeed": 0,
+    "buildTime": 80,
+    "infSpawnProp": 50,
+    "builder": "constructionYard",
+    "techLevel": 5,
+    "upgradeLevel": 0,
+    "prerequisite": [
+     "windtrap",
+     "radar",
+     "lightFactory"
+    ]
+   },
+   "house": {}
+  },
+  "rocketTurret": {
+   "name": "Rocket-Turret",
+   "base": {
+    "enabled": true,
+    "hitPoints": 200,
+    "price": 250,
+    "power": 25,
+    "viewRange": 5,
+    "capacity": 0,
+    "weaponDamage": 30,
+    "weaponRange": 8,
+    "weaponReloadTime": 360,
+    "maxSpeed": 0,
+    "turnSpeed": 0.05,
+    "buildTime": 96,
+    "infSpawnProp": 25,
+    "builder": "constructionYard",
+    "techLevel": 6,
+    "upgradeLevel": 2,
+    "prerequisite": [
+     "windtrap",
+     "radar"
+    ]
+   },
+   "house": {}
+  },
+  "silo": {
+   "name": "Spice Silo",
+   "base": {
+    "enabled": true,
+    "hitPoints": 150,
+    "price": 150,
+    "power": 5,
+    "viewRange": 2,
+    "capacity": 1000,
+    "weaponDamage": 0,
+    "weaponRange": 0,
+    "weaponReloadTime": 0,
+    "maxSpeed": 0,
+    "turnSpeed": 0,
+    "buildTime": 48,
+    "infSpawnProp": 0,
+    "builder": "constructionYard",
+    "techLevel": 2,
+    "upgradeLevel": 0,
+    "prerequisite": [
+     "windtrap",
+     "refinery"
+    ]
+   },
+   "house": {}
+  },
+  "slab1": {
+   "name": "Slab1",
+   "base": {
+    "enabled": true,
+    "hitPoints": 0,
+    "price": 5,
+    "power": 0,
+    "viewRange": 1,
+    "capacity": 0,
+    "weaponDamage": 0,
+    "weaponRange": 0,
+    "weaponReloadTime": 0,
+    "maxSpeed": 0,
+    "turnSpeed": 0,
+    "buildTime": 16,
+    "infSpawnProp": 0,
+    "builder": "constructionYard",
+    "techLevel": 1,
+    "upgradeLevel": 0,
+    "prerequisite": []
+   },
+   "house": {}
+  },
+  "slab4": {
+   "name": "Slab4",
+   "base": {
+    "enabled": true,
+    "hitPoints": 0,
+    "price": 20,
+    "power": 0,
+    "viewRange": 1,
+    "capacity": 0,
+    "weaponDamage": 0,
+    "weaponRange": 0,
+    "weaponReloadTime": 0,
+    "maxSpeed": 0,
+    "turnSpeed": 0,
+    "buildTime": 16,
+    "infSpawnProp": 0,
+    "builder": "constructionYard",
+    "techLevel": 4,
+    "upgradeLevel": 1,
+    "prerequisite": []
+   },
+   "house": {}
+  },
+  "starport": {
+   "name": "Starport",
+   "base": {
+    "enabled": true,
+    "hitPoints": 500,
+    "price": 500,
+    "power": 50,
+    "viewRange": 6,
+    "capacity": 0,
+    "weaponDamage": 0,
+    "weaponRange": 0,
+    "weaponReloadTime": 0,
+    "maxSpeed": 0,
+    "turnSpeed": 0,
+    "buildTime": 120,
+    "infSpawnProp": 50,
+    "builder": "constructionYard",
+    "techLevel": 6,
+    "upgradeLevel": 0,
+    "prerequisite": [
+     "windtrap",
+     "refinery"
+    ]
+   },
+   "house": {}
+  },
+  "wall": {
+   "name": "Wall",
+   "base": {
+    "enabled": true,
+    "hitPoints": 50,
+    "price": 50,
+    "power": 0,
+    "viewRange": 1,
+    "capacity": 0,
+    "weaponDamage": 0,
+    "weaponRange": 0,
+    "weaponReloadTime": 0,
+    "maxSpeed": 0,
+    "turnSpeed": 0,
+    "buildTime": 40,
+    "infSpawnProp": 0,
+    "builder": "constructionYard",
+    "techLevel": 4,
+    "upgradeLevel": 0,
+    "prerequisite": [
+     "windtrap",
+     "radar"
+    ]
+   },
+   "house": {}
+  },
+  "windtrap": {
+   "name": "Windtrap",
+   "base": {
+    "enabled": true,
+    "hitPoints": 200,
+    "price": 300,
+    "power": -100,
+    "viewRange": 2,
+    "capacity": 0,
+    "weaponDamage": 0,
+    "weaponRange": 0,
+    "weaponReloadTime": 0,
+    "maxSpeed": 0,
+    "turnSpeed": 0,
+    "buildTime": 48,
+    "infSpawnProp": 25,
+    "builder": "constructionYard",
+    "techLevel": 1,
+    "upgradeLevel": 0,
+    "prerequisite": []
+   },
+   "house": {}
+  },
+  "wor": {
+   "name": "WOR",
+   "base": {
+    "enabled": true,
+    "hitPoints": 400,
+    "price": 400,
+    "power": 20,
+    "viewRange": 3,
+    "capacity": 0,
+    "weaponDamage": 0,
+    "weaponRange": 0,
+    "weaponReloadTime": 0,
+    "maxSpeed": 0,
+    "turnSpeed": 0,
+    "buildTime": 104,
+    "infSpawnProp": 50,
+    "builder": "constructionYard",
+    "techLevel": 5,
+    "upgradeLevel": 0,
+    "prerequisite": [
+     "windtrap",
+     "radar",
+     "barracks"
+    ]
+   },
+   "house": {
+    "0": {
+     "techLevel": 2,
+     "prerequisite": [
+      "windtrap",
+      "radar"
+     ]
+    },
+    "1": {
+     "builder": null
+    }
+   }
+  }
+ },
+ "units": {
+  "carryall": {
+   "name": "Carryall",
+   "base": {
+    "enabled": true,
+    "hitPoints": 100,
+    "price": 800,
+    "power": 0,
+    "viewRange": 5,
+    "capacity": 0,
+    "weaponDamage": 0,
+    "weaponRange": 0,
+    "weaponReloadTime": 0,
+    "maxSpeed": 19.2,
+    "turnSpeed": 0.099,
+    "buildTime": 64,
+    "infSpawnProp": 0,
+    "builder": "highTechFactory",
+    "techLevel": 1,
+    "upgradeLevel": 0,
+    "prerequisite": []
+   },
+   "house": {}
+  },
+  "devastator": {
+   "name": "Devastator",
+   "base": {
+    "enabled": true,
+    "hitPoints": 400,
+    "price": 800,
+    "power": 0,
+    "viewRange": 4,
+    "capacity": 0,
+    "weaponDamage": 40,
+    "weaponRange": 5,
+    "weaponReloadTime": 300,
+    "maxSpeed": 1.28,
+    "turnSpeed": 0.0625,
+    "buildTime": 104,
+    "infSpawnProp": 25,
+    "builder": "heavyFactory",
+    "techLevel": 1,
+    "upgradeLevel": 0,
+    "prerequisite": [
+     "ix"
+    ]
+   },
+   "house": {
+    "1": {
+     "builder": null
+    },
+    "2": {
+     "builder": null
+    }
+   }
+  },
+  "deviator": {
+   "name": "Deviator",
+   "base": {
+    "enabled": true,
+    "hitPoints": 120,
+    "price": 750,
+    "power": 0,
+    "viewRange": 5,
+    "capacity": 0,
+    "weaponDamage": 0,
+    "weaponRange": 7,
+    "weaponReloadTime": 540,
+    "maxSpeed": 3.84,
+    "turnSpeed": 0.0625,
+    "buildTime": 80,
+    "infSpawnProp": 25,
+    "builder": null,
+    "techLevel": 1,
+    "upgradeLevel": 0,
+    "prerequisite": [
+     "ix"
+    ]
+   },
+   "house": {
+    "2": {
+     "builder": "heavyFactory"
+    }
+   }
+  },
+  "frigate": {
+   "name": "Frigate",
+   "base": {
+    "enabled": true,
+    "hitPoints": 10000,
+    "price": 0,
+    "power": 0,
+    "viewRange": 5,
+    "capacity": 0,
+    "weaponDamage": 0,
+    "weaponRange": 0,
+    "weaponReloadTime": 0,
+    "maxSpeed": 12.8,
+    "turnSpeed": 0.099,
+    "buildTime": 80,
+    "infSpawnProp": 0,
+    "builder": null,
+    "techLevel": 1,
+    "upgradeLevel": 0,
+    "prerequisite": []
+   },
+   "house": {}
+  },
+  "harvester": {
+   "name": "Harvester",
+   "base": {
+    "enabled": true,
+    "hitPoints": 150,
+    "price": 300,
+    "power": 0,
+    "viewRange": 2,
+    "capacity": 0,
+    "weaponDamage": 0,
+    "weaponRange": 0,
+    "weaponReloadTime": 0,
+    "maxSpeed": 2.56,
+    "turnSpeed": 0.0625,
+    "buildTime": 64,
+    "infSpawnProp": 50,
+    "builder": "heavyFactory",
+    "techLevel": 1,
+    "upgradeLevel": 0,
+    "prerequisite": []
+   },
+   "house": {}
+  },
+  "launcher": {
+   "name": "Launcher",
+   "base": {
+    "enabled": true,
+    "hitPoints": 100,
+    "price": 450,
+    "power": 0,
+    "viewRange": 5,
+    "capacity": 0,
+    "weaponDamage": 75,
+    "weaponRange": 9,
+    "weaponReloadTime": 360,
+    "maxSpeed": 3.84,
+    "turnSpeed": 0.0625,
+    "buildTime": 72,
+    "infSpawnProp": 25,
+    "builder": "heavyFactory",
+    "techLevel": 5,
+    "upgradeLevel": 2,
+    "prerequisite": []
+   },
+   "house": {
+    "2": {
+     "builder": null
+    }
+   }
+  },
+  "mcv": {
+   "name": "MCV",
+   "base": {
+    "enabled": true,
+    "hitPoints": 150,
+    "price": 900,
+    "power": 0,
+    "viewRange": 2,
+    "capacity": 0,
+    "weaponDamage": 0,
+    "weaponRange": 0,
+    "weaponReloadTime": 0,
+    "maxSpeed": 2.56,
+    "turnSpeed": 0.0625,
+    "buildTime": 80,
+    "infSpawnProp": 25,
+    "builder": "heavyFactory",
+    "techLevel": 4,
+    "upgradeLevel": 1,
+    "prerequisite": []
+   },
+   "house": {}
+  },
+  "ornithopter": {
+   "name": "Ornithopter",
+   "base": {
+    "enabled": true,
+    "hitPoints": 25,
+    "price": 600,
+    "power": 0,
+    "viewRange": 5,
+    "capacity": 0,
+    "weaponDamage": 45,
+    "weaponRange": 5,
+    "weaponReloadTime": 150,
+    "maxSpeed": 14.4,
+    "turnSpeed": 0.0707,
+    "buildTime": 96,
+    "infSpawnProp": 0,
+    "builder": "highTechFactory",
+    "techLevel": 7,
+    "upgradeLevel": 1,
+    "prerequisite": [
+     "ix"
+    ]
+   },
+   "house": {
+    "0": {
+     "builder": null
+    }
+   }
+  },
+  "quad": {
+   "name": "Quad",
+   "base": {
+    "enabled": true,
+    "hitPoints": 130,
+    "price": 200,
+    "power": 0,
+    "viewRange": 2,
+    "capacity": 0,
+    "weaponDamage": 7,
+    "weaponRange": 3,
+    "weaponReloadTime": 150,
+    "maxSpeed": 5.12,
+    "turnSpeed": 0.0625,
+    "buildTime": 48,
+    "infSpawnProp": 25,
+    "builder": "lightFactory",
+    "techLevel": 3,
+    "upgradeLevel": 1,
+    "prerequisite": []
+   },
+   "house": {
+    "0": {
+     "techLevel": 1,
+     "upgradeLevel": 0
+    }
+   }
+  },
+  "raider": {
+   "name": "Raider Trike",
+   "base": {
+    "enabled": true,
+    "hitPoints": 80,
+    "price": 150,
+    "power": 0,
+    "viewRange": 2,
+    "capacity": 0,
+    "weaponDamage": 5,
+    "weaponRange": 3,
+    "weaponReloadTime": 150,
+    "maxSpeed": 9.25,
+    "turnSpeed": 0.0625,
+    "buildTime": 40,
+    "infSpawnProp": 25,
+    "builder": "lightFactory",
+    "techLevel": 1,
+    "upgradeLevel": 0,
+    "prerequisite": []
+   },
+   "house": {
+    "0": {
+     "builder": null
+    },
+    "1": {
+     "builder": null
+    }
+   }
+  },
+  "saboteur": {
+   "name": "Saboteur",
+   "base": {
+    "enabled": true,
+    "hitPoints": 10,
+    "price": 0,
+    "power": 0,
+    "viewRange": 1,
+    "capacity": 0,
+    "weaponDamage": 0,
+    "weaponRange": 0,
+    "weaponReloadTime": 0,
+    "maxSpeed": 5.12,
+    "turnSpeed": 0.0625,
+    "buildTime": 48,
+    "infSpawnProp": 0,
+    "builder": null,
+    "techLevel": 1,
+    "upgradeLevel": 0,
+    "prerequisite": []
+   },
+   "house": {}
+  },
+  "sandworm": {
+   "name": "Sandworm",
+   "base": {
+    "enabled": true,
+    "hitPoints": 1000,
+    "price": 0,
+    "power": 0,
+    "viewRange": 2,
+    "capacity": 0,
+    "weaponDamage": 300,
+    "weaponRange": 0,
+    "weaponReloadTime": 60,
+    "maxSpeed": 4.48,
+    "turnSpeed": 0.625,
+    "buildTime": 80,
+    "infSpawnProp": 0,
+    "builder": null,
+    "techLevel": 1,
+    "upgradeLevel": 0,
+    "prerequisite": []
+   },
+   "house": {}
+  },
+  "siegeTank": {
+   "name": "Siege Tank",
+   "base": {
+    "enabled": true,
+    "hitPoints": 300,
+    "price": 600,
+    "power": 0,
+    "viewRange": 4,
+    "capacity": 0,
+    "weaponDamage": 30,
+    "weaponRange": 5,
+    "weaponReloadTime": 270,
+    "maxSpeed": 2.56,
+    "turnSpeed": 0.0625,
+    "buildTime": 96,
+    "infSpawnProp": 25,
+    "builder": "heavyFactory",
+    "techLevel": 6,
+    "upgradeLevel": 3,
+    "prerequisite": []
+   },
+   "house": {
+    "2": {
+     "techLevel": 7,
+     "upgradeLevel": 2
+    }
+   }
+  },
+  "soldier": {
+   "name": "Soldier",
+   "base": {
+    "enabled": true,
+    "hitPoints": 20,
+    "price": 60,
+    "power": 0,
+    "viewRange": 1,
+    "capacity": 0,
+    "weaponDamage": 3,
+    "weaponRange": 2,
+    "weaponReloadTime": 135,
+    "maxSpeed": 1.024,
+    "turnSpeed": 0.0625,
+    "buildTime": 32,
+    "infSpawnProp": 0,
+    "builder": "barracks",
+    "techLevel": 1,
+    "upgradeLevel": 0,
+    "prerequisite": []
+   },
+   "house": {}
+  },
+  "sonicTank": {
+   "name": "Sonic Tank",
+   "base": {
+    "enabled": true,
+    "hitPoints": 110,
+    "price": 600,
+    "power": 0,
+    "viewRange": 4,
+    "capacity": 0,
+    "weaponDamage": 60,
+    "weaponRange": 8,
+    "weaponReloadTime": 240,
+    "maxSpeed": 3.84,
+    "turnSpeed": 0.0625,
+    "buildTime": 104,
+    "infSpawnProp": 25,
+    "builder": "heavyFactory",
+    "techLevel": 1,
+    "upgradeLevel": 0,
+    "prerequisite": [
+     "ix"
+    ]
+   },
+   "house": {
+    "0": {
+     "builder": null
+    },
+    "2": {
+     "builder": null
+    }
+   }
+  },
+  "tank": {
+   "name": "Tank",
+   "base": {
+    "enabled": true,
+    "hitPoints": 200,
+    "price": 300,
+    "power": 0,
+    "viewRange": 3,
+    "capacity": 0,
+    "weaponDamage": 25,
+    "weaponRange": 4,
+    "weaponReloadTime": 240,
+    "maxSpeed": 4,
+    "turnSpeed": 0.0625,
+    "buildTime": 64,
+    "infSpawnProp": 25,
+    "builder": "heavyFactory",
+    "techLevel": 1,
+    "upgradeLevel": 0,
+    "prerequisite": []
+   },
+   "house": {}
+  },
+  "trike": {
+   "name": "Trike",
+   "base": {
+    "enabled": true,
+    "hitPoints": 100,
+    "price": 150,
+    "power": 0,
+    "viewRange": 2,
+    "capacity": 0,
+    "weaponDamage": 5,
+    "weaponRange": 3,
+    "weaponReloadTime": 150,
+    "maxSpeed": 6.4425,
+    "turnSpeed": 0.0625,
+    "buildTime": 40,
+    "infSpawnProp": 25,
+    "builder": "lightFactory",
+    "techLevel": 1,
+    "upgradeLevel": 0,
+    "prerequisite": []
+   },
+   "house": {
+    "0": {
+     "builder": null
+    },
+    "2": {
+     "builder": null
+    }
+   }
+  },
+  "trooper": {
+   "name": "Trooper",
+   "base": {
+    "enabled": true,
+    "hitPoints": 45,
+    "price": 100,
+    "power": 0,
+    "viewRange": 1,
+    "capacity": 0,
+    "weaponDamage": 5,
+    "weaponRange": 5,
+    "weaponReloadTime": 150,
+    "maxSpeed": 1.92,
+    "turnSpeed": 0.0625,
+    "buildTime": 56,
+    "infSpawnProp": 0,
+    "builder": "wor",
+    "techLevel": 1,
+    "upgradeLevel": 0,
+    "prerequisite": []
+   },
+   "house": {}
+  }
+ }
+}
